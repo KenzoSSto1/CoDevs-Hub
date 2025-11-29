@@ -1,9 +1,9 @@
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
 
 local Window = redzlib:MakeWindow({
-    Title = "Kakah Hub | Brookhaven RP 🏡 4.1",
-    SubTitle = "by Kakah ",
-    SaveFolder = "testando Kakah Hub"
+    Title = "CoDevs Hub | Brookhaven RP 🏡 4.1",
+    SubTitle = "by CoDevs Studios ",
+    SaveFolder = "testando CoDevsHub"
   })
 
   Window:AddMinimizeButton({
@@ -35,9 +35,9 @@ local Tab11 = Window:MakeTab({"premium ","gamepass"})
 Tab1:AddSection({"Créditos do Hub"})
 
 Tab1:AddDiscordInvite({
-    Name = "Kakah Hub",
+    Name = "CoDevs Team",
     Description = "",
-    Logo = "rbxassetid://https://discord.gg/YwyyAyhaT",
+    Logo = "rbxassetid://https://discord.gg/hgsrcXJak",
     Invite = "",
 })
 
@@ -68,7 +68,7 @@ local Paragraph = Tab1:AddParagraph({"Execultor", executorName})
 
 local Section = Tab1:AddSection({"versao do Hub 3.7"})
 
-local Paragraph = Tab1:AddParagraph({"Criadores", "Kakah "})
+local Paragraph = Tab1:AddParagraph({"Criadores", "CoDevs "})
 
 local Paragraph = Tab1:AddParagraph({"créditos", "NINJA,VTEZE,SOVEREIGN"})
 
@@ -77,8 +77,8 @@ local Paragraph = Tab1:AddParagraph({"créditos", "NINJA,VTEZE,SOVEREIGN"})
   Tab1:AddButton({
     Name = " - Copiar @ do TikTok",
     Callback = function()
-      setclipboard("@kaykaka2") -- Copia o @
-      setclipboard("https://www.tiktok.com/@kaykaka2?_t=ZM-909AsCuzcbI&_r=1") -- Copia o link também, se quiser só o @, remova esta linha
+      setclipboard("@just a testing hub") -- Copia o @
+      setclipboard("just a testing hub") -- Copia o link também, se quiser só o @, remova esta linha
       
     end
   })
