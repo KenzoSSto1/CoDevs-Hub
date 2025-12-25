@@ -1,6 +1,6 @@
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
+local uilibraly = loadstring(game:HttpGet("https://raw.githubusercontent.com/KenzoSSto1/uilibraly/refs/heads/main/ui_library.txt"))()
 
-local Window = redzlib:MakeWindow({
+local Window = uilibraly:MakeWindow({
     Title = "CoDevs Hub | Brookhaven RP 🏡 4.1",
     SubTitle = "by CoDevs Studios ",
     SaveFolder = "testando CoDevsHub"
@@ -38,7 +38,7 @@ Tab1:AddDiscordInvite({
     Name = "CoDevs Team",
     Description = "",
     Logo = "rbxassetid://https://discord.gg/hgsrcXJak",
-    Invite = "",
+    Invite = "https://discord.gg/aBaMpbW4v",
 })
 
 
